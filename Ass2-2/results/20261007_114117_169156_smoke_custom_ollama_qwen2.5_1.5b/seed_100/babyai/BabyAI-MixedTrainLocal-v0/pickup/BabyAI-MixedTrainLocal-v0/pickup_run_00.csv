@@ -1,0 +1,25 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,turn left,"{""memory_before"": {""plan"": null, ""subgoal"": null}, ""memory_after"": {""plan"": ""Turn left, go forward, pick up"", ""subgoal"": ""Reach the next step straight ahead""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","a wall 6 steps forward
+a wall 1 step right",0,False
+1,go forward,"{""memory_before"": {""plan"": ""Turn left, go forward, pick up"", ""subgoal"": ""Reach the next step straight ahead""}, ""memory_after"": {""plan"": ""Go forward"", ""subgoal"": ""Reach the next wall""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 5 steps forward
+a wall 1 step right",0,False
+2,go forward,"{""memory_before"": {""plan"": ""Go forward"", ""subgoal"": ""Reach the next wall""}, ""memory_after"": {""plan"": ""Go forward"", ""subgoal"": ""Reach the next wall""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 4 steps forward
+a wall 1 step right",0,False
+3,go forward,"{""memory_before"": {""plan"": ""Go forward"", ""subgoal"": ""Reach the next wall""}, ""memory_after"": {""plan"": ""Go forward"", ""subgoal"": ""Reach the next wall""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 3 steps forward
+a wall 1 step right",0,False
+4,go forward,"{""memory_before"": {""plan"": ""Go forward"", ""subgoal"": ""Reach the next wall""}, ""memory_after"": {""plan"": ""Go forward"", ""subgoal"": ""Reach the next wall""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 2 steps forward
+a wall 1 step right",0,False
+5,go forward,"{""memory_before"": {""plan"": ""Go forward"", ""subgoal"": ""Reach the next wall""}, ""memory_after"": {""plan"": ""Keep going forward"", ""subgoal"": ""Reach the next wall""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+6,go forward,"{""memory_before"": {""plan"": ""Keep going forward"", ""subgoal"": ""Reach the next wall""}, ""memory_after"": {""plan"": ""Keep walking forward"", ""subgoal"": ""Reach the next wall""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+7,go forward,"{""memory_before"": {""plan"": ""Keep walking forward"", ""subgoal"": ""Reach the next wall""}, ""memory_after"": {""plan"": ""Keep walking forward"", ""subgoal"": ""Reach the next wall""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+8,go forward,"{""memory_before"": {""plan"": ""Keep walking forward"", ""subgoal"": ""Reach the next wall""}, ""memory_after"": {""plan"": ""Keep walking forward"", ""subgoal"": ""Reach the next wall""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+9,go forward,"{""memory_before"": {""plan"": ""Keep walking forward"", ""subgoal"": ""Reach the next wall""}, ""memory_after"": {""plan"": ""Keep walking forward"", ""subgoal"": ""Reach the next wall""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+10,go forward,"{""memory_before"": {""plan"": ""Keep walking forward"", ""subgoal"": ""Reach the next wall""}, ""memory_after"": {""plan"": ""Keep walking forward"", ""subgoal"": ""Reach the next wall""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+11,go forward,"{""memory_before"": {""plan"": ""Keep walking forward"", ""subgoal"": ""Reach the next wall""}, ""memory_after"": {""plan"": ""Keep walking forward"", ""subgoal"": ""Reach the next wall""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False

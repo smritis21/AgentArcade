@@ -1,0 +1,5 @@
+agent,model,benchmark,seed,task,episode,progression,steps,failed_candidates
+custom,qwen2.5:1.5b,babyai,100,BabyAI-MixedTrainLocal-v0/goto,0,0.0,12,['']
+custom,qwen2.5:1.5b,babyai,100,BabyAI-MixedTrainLocal-v0/pickup,0,0.0,12,[]
+custom,qwen2.5:1.5b,babyai,101,BabyAI-MixedTrainLocal-v0/goto,0,1.0,9,"['', '', '']"
+custom,qwen2.5:1.5b,babyai,101,BabyAI-MixedTrainLocal-v0/pickup,0,0.0,12,"['', '', '', '', '']"

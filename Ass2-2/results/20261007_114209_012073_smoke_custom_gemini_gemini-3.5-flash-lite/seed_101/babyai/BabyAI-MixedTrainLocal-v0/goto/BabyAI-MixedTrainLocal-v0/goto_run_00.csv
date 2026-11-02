@@ -1,0 +1,13 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,turn right,"{""memory_before"": {""plan"": null, ""subgoal"": null}, ""memory_after"": {""plan"": ""Turn around to search for the red ball."", ""subgoal"": ""Search for the red ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 5 steps forward
+a wall 2 steps left
+a red ball 1 step right and 2 steps forward",0,False
+1,turn right,"{""memory_before"": {""plan"": ""Turn around to search for the red ball."", ""subgoal"": ""Search for the red ball.""}, ""memory_after"": {""plan"": ""Turn right, then move forward toward the red ball."", ""subgoal"": ""Turn right toward the red ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 5 steps forward
+a wall 2 steps right
+a red ball 2 steps left and 1 step forward",0,False
+2,turn left,"{""memory_before"": {""plan"": ""Turn right, then move forward toward the red ball."", ""subgoal"": ""Turn right toward the red ball.""}, ""memory_after"": {""plan"": ""Turn left, then move forward to reach the red ball."", ""subgoal"": ""Turn left toward the red ball.""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","a wall 5 steps forward
+a wall 2 steps left
+a red ball 1 step right and 2 steps forward",0,False
+3,turn right,"{""memory_before"": {""plan"": ""Turn left, then move forward to reach the red ball."", ""subgoal"": ""Turn left toward the red ball.""}, ""memory_after"": {""plan"": ""Turn right to face the red ball, then move forward."", ""subgoal"": ""Turn right toward the red ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 5 steps forward
+a wall 2 steps right
+a red ball 2 steps left and 1 step forward",0,False

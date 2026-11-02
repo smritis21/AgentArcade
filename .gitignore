@@ -1,0 +1,24 @@
+# Supplied source archives and assignment handout
+*.zip
+*.pdf
+
+# Duplicate source copy; the normalized dashboard is index.html
+index (2).html
+
+# Python and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+
+# Local environments, credentials, and upstream dependency checkout
+.venv/
+venv/
+.env
+.env.*
+SECRETS/
+BALROG/
+
+# Platform metadata
+.DS_Store
+__MACOSX/

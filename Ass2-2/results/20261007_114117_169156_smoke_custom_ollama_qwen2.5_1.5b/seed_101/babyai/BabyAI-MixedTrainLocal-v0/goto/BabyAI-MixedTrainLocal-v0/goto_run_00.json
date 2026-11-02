@@ -1,0 +1,45 @@
+{
+    "task": "BabyAI-MixedTrainLocal-v0/goto",
+    "action_frequency": {
+        "go forward": 6,
+        "turn right": 2,
+        "toggle": 1
+    },
+    "input_tokens": 4648,
+    "output_tokens": 215,
+    "done": true,
+    "episode_return": 0.8734375,
+    "num_steps": 9,
+    "failed_candidates": [
+        "",
+        "",
+        ""
+    ],
+    "mission": "go to the red ball",
+    "progression": 1.0,
+    "process_num": null,
+    "seed": 101,
+    "agent": {
+        "type": "custom",
+        "remember_cot": true,
+        "max_text_history": 16,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false
+    },
+    "client": {
+        "client_name": "vllm",
+        "model_id": "qwen2.5:1.5b",
+        "base_url": "http://localhost:11434/v1",
+        "generate_kwargs": {
+            "temperature": 1.0,
+            "max_tokens": 128,
+            "thinking_budget": null
+        },
+        "timeout": 60,
+        "max_retries": 2,
+        "delay": 2,
+        "alternate_roles": false
+    }
+}

@@ -1,0 +1,3 @@
+agent,model,benchmark,seed,task,episode,progression,steps,failed_candidates
+custom,gemini-3.5-flash-lite,babyai,100,BabyAI-MixedTrainLocal-v0/goto,0,0.0,4,[]
+custom,gemini-3.5-flash-lite,babyai,101,BabyAI-MixedTrainLocal-v0/goto,0,0.0,4,[]
